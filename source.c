@@ -6,6 +6,7 @@
 // if the user solves it, user gets asked next question
 // in the end, the result of the test is printed to the user
 
+//Exit message, thanking the user for participation.
 void exitMessage(void) {
 	printf("\n\n\t\tThank you for participating in this survey.");
 	Sleep(1000);
@@ -13,7 +14,7 @@ void exitMessage(void) {
 }
 
 int main() {
-	
+	//declaring variables and setting data types
 	int num1 = 10;
 	int num2 = 20;
 	int num3 = 15;
