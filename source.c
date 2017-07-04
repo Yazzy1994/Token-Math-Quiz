@@ -121,9 +121,10 @@ int main() {
 		Sleep(1600);
 		exitMessage();
 	}
+	Sleep(3000);
 
 
 
-	return(0);
+	
 
 }
