@@ -23,9 +23,10 @@ int main() {
 	int ans2;
 	int score = 0;
 
-	printf("\nTell me, what is %d + %d?\n", num1, num2);
-	scanf("%d", &ans1);
-	Sleep(700);
+
+	printf("\nTell me, what is %d + %d?\n", num1, num2); //prints the questions to user
+	scanf("%d", &ans1); //takes input and places it into ans1
+	Sleep(700); //puts the execution of the program into sleep for 700 milliseconds
 	if (ans1 == (num1 + num2)){
 		printf("\nAnswer has been registered.\n\n\n");
 		score++;
