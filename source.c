@@ -22,6 +22,7 @@ int main() {
 	int ans1;
 	int ans2;
 	int score = 0;
+	int TEST = 1000;
 
 
 	printf("\nTell me, what is %d + %d?\n", num1, num2); //prints the questions to user
